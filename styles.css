@@ -1,0 +1,13 @@
+.main-header{
+    text-align:center;
+}
+.map-svg{
+    margin: auto;
+    display: block;
+}
+#myTable_wrapper{
+    margin-top: 2em;
+}
+h3{
+    margin-top: 2em;
+} 

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Covid-19 Charts
+        </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <meta name="author" content="Arijit Ray">
+        <link rel="stylesheet" href="http://cdn.datatables.net/1.10.2/css/jquery.dataTables.min.css">
+        <script type="text/javascript" src="http://cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script type="text/javascript" src="d3.geo.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+        <script src="states.js"></script>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h2 class="main-header">Eli-Lily Data Story Challenge</h2>
+            <ul class="nav nav-pills">
+                <li class="active"><a data-toggle="pill" href="#map-section">Map</a></li>
+                <li><a data-toggle="pill" href="#master-data">Master Data Table</a></li>
+            </ul>
+            <div class="tab-content">
+                <div id="map-section" class="tab-pane fade in active">
+                    <h3 class="main-header">India Map</h3>
+                    <div id="india-map">
+
+                    </div>
+                    <div id="chart-area">
+
+                    </div>
+                </div>
+                <div id="master-data" class="tab-pane fade">
+                    
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
