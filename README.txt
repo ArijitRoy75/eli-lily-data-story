@@ -11,7 +11,7 @@ Steps to Run the Application:-
 2) Copy the path of the "index.html" file and paste it on the address bar of you browser.
 
 Assumptions:-
-1) Stable Internet Connectivity
+1) Stable Internet Connectivity (Expect delay in the formation of the Map and Table) 
 2) Any Modern Web browser
 
 
